@@ -30,11 +30,7 @@ Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It co
 ### Implementation Steps
 
 Implementation is broken down into five files:
-1. LoadHouseHoldPowerData - 
-
-	This file helps load the data set from the current working folder. (Be sure to drop the R pacakges and the Data in the same folder).
-	Logic includes loading the file into a data table and filtering the data based on the analysis dates 2007-02-01 and 2007-02-02
-	This file is included as the source for all the remaining four files.
+1. LoadHouseHoldPowerData - This file helps load the data set from the current working folder. (Be sure to drop the R pacakges and the Data in the same folder). Logic includes loading the file into a data table and filtering the data based on the analysis dates 2007-02-01 and 2007-02-02. This file is included as the source for all the remaining four files.
 	
 2. plot1.R - Plot the Global Active Power Frequency from the House Hold Power Data
 
